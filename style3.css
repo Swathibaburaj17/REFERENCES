@@ -1,0 +1,42 @@
+body
+{
+	background-image:url("https://tse4.mm.bing.net/th?id=OIP.67Q--Vb_hCL084HOCG8rBAHaEK&pid=Api&P=0&w=288&h=162");
+background-size:100%;
+color:yellow;
+}
+
+#header img
+{
+	
+	height:80px;
+}
+table 
+{
+width:400px;
+
+}
+
+.btn1
+{
+	background-color:pink;
+}
+.btn2
+{
+	background-color:white;
+}
+.btn3
+{
+	background-color:pink;
+}
+.btn4
+{
+	background-color:white;
+}
+th,td{
+	
+	padding:10px;
+}
+th,td,a
+{
+color:yellow;
+}	

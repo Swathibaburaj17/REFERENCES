@@ -1,0 +1,75 @@
+body
+{
+background:white;
+background-image:url("https://tse1.mm.bing.net/th?id=OIP.LvWChtAfiy_s60eRSyxE7gHaEK&pid=Api&P=0&w=283&h=160");
+background-size:100%;
+}
+
+#header
+{
+height:100px;
+
+}
+#header img
+{
+height:80px;
+
+}
+#container1
+{
+width:40%;
+
+margin:0px auto;
+
+}
+#cintainer1 ul li
+{
+color:blink;
+margin-right:10px;
+
+}
+.btn1
+{
+	background-color:pink;
+}
+.btn2
+{
+	background-color:white;
+}
+.btn3
+{
+	background-color:pink;
+}
+.btn4
+{
+	background-color:white;
+}
+.btn5
+{
+	background-color:pink;
+}
+.btn6
+{
+	background-color:white;
+}
+.btn7
+{
+	background-color:pink;
+}
+.btn8
+{
+	background-color:white;
+}
+
+
+#container1 ul li a
+{
+color:black;
+text-decoration:none;
+font-size:12px;
+}
+#footer p
+{
+color:black;
+margin-left:550px;
+}

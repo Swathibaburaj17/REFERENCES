@@ -1,0 +1,52 @@
+body
+{
+	background-color:white;
+	background-image:url("https://tse1.mm.bing.net/th?id=OIP.A33Mwt6kBvZsyQaOtZYp4wHaEK&pid=Api&P=0&w=288&h=163");
+	background-size:100%;
+}
+#container
+{
+background-color:white;
+
+width:45%;
+height:700px;
+margin:0px auto;
+}
+#header
+{
+	
+height:100px;
+background-color:white;
+}
+#header img
+{
+height:80px;
+
+}
+#header ul
+{
+float :right;
+margin-top:30px;
+margin-right:55px;
+}
+#header ul li
+{
+display:inline;
+margin-right:10px;
+}
+#header ul li a
+{
+color:green;
+text-decoration:none;
+font-size:20px;
+}
+#banner img
+{
+width:100%;
+height:150px;
+}
+#footer p
+{
+color:black;
+margin-left:290px;
+}
