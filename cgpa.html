@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA CALCULATOR</title>
+    <link rel="stylesheet" href="cgpa.css">
+    
+</head>
+<body>
+    <form >
+     <div class="appform">
+        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_htyGOz.json"  background="transparent"  speed="1"  style="width: 655px; height: 250px;" loop controls autoplay></lottie-player>
+ <h2>Here is your CGPA Calculator!!</h2>
+ <br>
+       <div class="appgroup">
+           <b><p>Subject 1</p></b>
+    <b>Marks</b>   <input type="text" class="appcontroll" placeholder="Marks" value="0" id="one"><br><br> <b>Credits</b><input type="text"  value="0"class="appcontroll" placeholder="credits" id="ones">
+     </div>
+     <br><br>
+      <div class="appgroup">
+    <b>  <p>Subject 2</p></b>
+    <b>Marks</b>      <input type="text" class="appcontroll" placeholder="Marks" value="0" id="two"><br><br>  <b>Credits</b><input type="text" value="0" class="appcontroll" placeholder="credits" id="twos">
+     </div>
+     <br>
+    <br>
+     <div class="appgroup">
+    <b><p>Subject 3</p></b>
+    <b>Marks</b>     <input type="text" class="appcontroll" placeholder="Marks" value="0" id="three"><br><br> <b>Credits</b> <input type="text" value="0" class="appcontroll" placeholder="credits" id="threes">
+    </div>
+    <br>
+    <br>
+    <div class="appgroup">
+    <b>  <p>Subject 4</p></b>
+    <b>Marks</b>     <input type="text" class="appcontroll" placeholder="Marks" value="0"  id="four"><br><br> <b>Credits</b> <input type="text" value="0" class="appcontroll" placeholder="credits" id="fours">
+    </div>
+    <br>
+   <br>
+    <div class="appgroup">
+    <b>   <p>Subject 5</p></b>
+    <b>Marks </b>   <input type="text" class="appcontroll" placeholder="Marks" value="0" id='five'><br><br>  <b>Credits</b><input type="text" value="0" class="appcontroll" placeholder="credits" id="fives">
+    </div>
+    <br>
+  <br>
+    
+        <button  onclick="calcy()">Show percentage</button>
+      </div>
+</div>  
+<br>
+     <br>
+<div class="appshowdata">
+    <p id="showdata"></p>
+</div>
+</form>
+    <script >
+const calcy=()=>
+{
+    let one=document.getElementById("one").value;
+    let two=document.getElementById("two").value;
+    let three=document.getElementById("three").value;
+    let four=document.getElementById("four").value;
+    let five=document.getElementById("five").value;
+   let ones=document.getElementById("ones").value;
+   let twos=document.getElementById("twos").value;
+   let threes=document.getElementById("threes").value;
+   let fours=document.getElementById("fours").value;
+   let fives=document.getElementById("fives").value;
+   let total = ((one*ones) + (two*twos) + (three*threes) + (four*fours) + (five*fives));
+   console.log("the total is:"+total);
+   let total1 = parseFloat(ones) + parseFloat(twos) + parseFloat(threes) + parseFloat(fours) + parseFloat(fives);
+   console.log("the total1 is:"+total1);
+   let result=total/total1;
+   console.log(result);
+  /* if(document.getElementById("one").value==''||document.getElementById("two").value==''||document.getElementById("three").value==''||
+   document.getElementById("four").value==''||document.getElementById("five").value=='')
+   {
+       window.alert("one value missed");
+       document.getElementById("one").value==0;
+       document.getElementById("two").value==0;
+   }*/
+ window.alert("Your percentage is" +result);
+}
+    </script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+</body>
+</html>
